@@ -3,7 +3,6 @@ googletrans==4.0.0-rc1
 asyncio
 # Core dependencies
 streamlit==1.30.0
-googletrans==3.1.0a0
 nest-asyncio==1.5.8
 
 # Additional dependencies required by googletrans
