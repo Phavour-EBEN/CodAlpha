@@ -1,7 +1,156 @@
-import nest_asyncio 
-nest_asyncio.apply()
+# import nest_asyncio 
+# nest_asyncio.apply()
+# from googletrans import Translator
+# import asyncio
+
+# SPECIAL_CASES = {
+#     'ee': 'et',
+# }
+
+# LANGUAGES = {
+#     'af': 'afrikaans',
+#     'sq': 'albanian',
+#     'am': 'amharic',
+#     'ar': 'arabic',
+#     'hy': 'armenian',
+#     'az': 'azerbaijani',
+#     'eu': 'basque',
+#     'be': 'belarusian',
+#     'bn': 'bengali',
+#     'bs': 'bosnian',
+#     'bg': 'bulgarian',
+#     'ca': 'catalan',
+#     'ceb': 'cebuano',
+#     'ny': 'chichewa',
+#     'zh-cn': 'chinese (simplified)',
+#     'zh-tw': 'chinese (traditional)',
+#     'co': 'corsican',
+#     'hr': 'croatian',
+#     'cs': 'czech',
+#     'da': 'danish',
+#     'nl': 'dutch',
+#     'en': 'english',
+#     'eo': 'esperanto',
+#     'et': 'estonian',
+#     'tl': 'filipino',
+#     'fi': 'finnish',
+#     'fr': 'french',
+#     'fy': 'frisian',
+#     'gl': 'galician',
+#     'ka': 'georgian',
+#     'de': 'german',
+#     'el': 'greek',
+#     'gu': 'gujarati',
+#     'ht': 'haitian creole',
+#     'ha': 'hausa',
+#     'haw': 'hawaiian',
+#     'iw': 'hebrew',
+#     'he': 'hebrew',
+#     'hi': 'hindi',
+#     'hmn': 'hmong',
+#     'hu': 'hungarian',
+#     'is': 'icelandic',
+#     'ig': 'igbo',
+#     'id': 'indonesian',
+#     'ga': 'irish',
+#     'it': 'italian',
+#     'ja': 'japanese',
+#     'jw': 'javanese',
+#     'kn': 'kannada',
+#     'kk': 'kazakh',
+#     'km': 'khmer',
+#     'ko': 'korean',
+#     'ku': 'kurdish (kurmanji)',
+#     'ky': 'kyrgyz',
+#     'lo': 'lao',
+#     'la': 'latin',
+#     'lv': 'latvian',
+#     'lt': 'lithuanian',
+#     'lb': 'luxembourgish',
+#     'mk': 'macedonian',
+#     'mg': 'malagasy',
+#     'ms': 'malay',
+#     'ml': 'malayalam',
+#     'mt': 'maltese',
+#     'mi': 'maori',
+#     'mr': 'marathi',
+#     'mn': 'mongolian',
+#     'my': 'myanmar (burmese)',
+#     'ne': 'nepali',
+#     'no': 'norwegian',
+#     'or': 'odia',
+#     'ps': 'pashto',
+#     'fa': 'persian',
+#     'pl': 'polish',
+#     'pt': 'portuguese',
+#     'pa': 'punjabi',
+#     'ro': 'romanian',
+#     'ru': 'russian',
+#     'sm': 'samoan',
+#     'gd': 'scots gaelic',
+#     'sr': 'serbian',
+#     'st': 'sesotho',
+#     'sn': 'shona',
+#     'sd': 'sindhi',
+#     'si': 'sinhala',
+#     'sk': 'slovak',
+#     'sl': 'slovenian',
+#     'so': 'somali',
+#     'es': 'spanish',
+#     'su': 'sundanese',
+#     'sw': 'swahili',
+#     'sv': 'swedish',
+#     'tg': 'tajik',
+#     'ta': 'tamil',
+#     'te': 'telugu',
+#     'th': 'thai',
+#     'tr': 'turkish',
+#     'uk': 'ukrainian',
+#     'ur': 'urdu',
+#     'ug': 'uyghur',
+#     'uz': 'uzbek',
+#     'vi': 'vietnamese',
+#     'cy': 'welsh',
+#     'xh': 'xhosa',
+#     'yi': 'yiddish',
+#     'yo': 'yoruba',
+#     'zu': 'zulu'
+# }
+# # finding the key from the Language dictionary gives the value
+# def get_language_name(value):
+#     for key, val in LANGUAGES.items():
+#         if val == value:
+#             return key
+#     return key
+
+# async def translate_text(text, target_language):
+#     translator = Translator()
+
+#     # Handle special cases
+#     if target_language == 'en':
+#         return text
+#     if target_language in SPECIAL_CASES:
+#         target_language = SPECIAL_CASES[target_language]
+
+#     # Translate the text, awaiting the coroutine
+#     translated_text = await translator.translate(text, dest=target_language)
+#     return translated_text.text
+
+# # This function handles running the coroutine in an event loop
+# def run_translation(text, target_language):
+#     return asyncio.run(translate_text(text, target_language))
+
+# # This function handles running the coroutine in an event loop
+# # text = input("Enter the text to be translated: ")
+# # language = input("Enter the target language: ")
+# # target_language = get_language_name(language)
+# # Call the run_translation function to execute the translation
+# # translated_text = run_translation(text, target_language)
+# # print(target_language)
+# # print("Translated text:", translated_text)
+
+# language_trans.py
 from googletrans import Translator
-import asyncio
 
 SPECIAL_CASES = {
     'ee': 'et',
@@ -116,35 +265,10 @@ LANGUAGES = {
     'yo': 'yoruba',
     'zu': 'zulu'
 }
-# finding the key from the Language dictionary gives the value
+
 def get_language_name(value):
+    """Get language code from language name"""
     for key, val in LANGUAGES.items():
         if val == value:
             return key
-    return key
-
-async def translate_text(text, target_language):
-    translator = Translator()
-
-    # Handle special cases
-    if target_language == 'en':
-        return text
-    if target_language in SPECIAL_CASES:
-        target_language = SPECIAL_CASES[target_language]
-
-    # Translate the text, awaiting the coroutine
-    translated_text = await translator.translate(text, dest=target_language)
-    return translated_text.text
-
-# This function handles running the coroutine in an event loop
-def run_translation(text, target_language):
-    return asyncio.run(translate_text(text, target_language))
-
-# This function handles running the coroutine in an event loop
-# text = input("Enter the text to be translated: ")
-# language = input("Enter the target language: ")
-# target_language = get_language_name(language)
-# Call the run_translation function to execute the translation
-# translated_text = run_translation(text, target_language)
-# print(target_language)
-# print("Translated text:", translated_text)
+    return None
