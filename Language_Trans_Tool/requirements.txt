@@ -1,3 +1,33 @@
 streamlit
 googletrans==4.0.0-rc1
 asyncio
+# Core dependencies
+streamlit==1.30.0
+googletrans==3.1.0a0
+nest-asyncio==1.5.8
+
+# Additional dependencies required by googletrans
+certifi>=2020.12.5
+chardet>=3.0.4
+click>=7.1.2
+h11>=0.9.0
+h2>=4.0.0
+httpcore>=0.9.1
+httpx>=0.13.3
+idna>=2.10
+hpack>=4.0.0
+hyperframe>=6.0.0
+rfc3986>=1.4.0
+sniffio>=1.2.0
+
+# Additional dependencies required by streamlit
+altair>=4.0.0
+numpy>=1.19.3
+pandas>=1.2.0
+pillow>=7.1.0
+protobuf>=3.12.0
+python-dateutil>=2.8.1
+pytz>=2020.1
+six>=1.15.0
+requests>=2.25.1
+urllib3>=1.26.2
