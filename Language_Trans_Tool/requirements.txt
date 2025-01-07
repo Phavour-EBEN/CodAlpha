@@ -14,19 +14,19 @@ h2
 httpcore
 httpx
 idna>=2.10
-hpack>=4.0.0
-hyperframe>=6.0.0
-rfc3986>=1.4.0
-sniffio>=1.2.0
+hpack
+hyperframe
+rfc3986
+sniffio
 
 # Additional dependencies required by streamlit
-altair>=4.0.0
-numpy>=1.19.3
-pandas>=1.2.0
-pillow>=7.1.0
-protobuf>=3.12.0
-python-dateutil>=2.8.1
-pytz>=2020.1
-six>=1.15.0
-requests>=2.25.1
-urllib3>=1.26.2
+altair
+numpy
+pandas
+pillow
+protobuf
+python-dateutil
+pytz
+six
+requests
+urllib3
