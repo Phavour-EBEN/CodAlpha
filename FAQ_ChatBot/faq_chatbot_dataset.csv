@@ -1,0 +1,58 @@
+Question,Answer,Category
+How do I install software updates on Windows 11?,Go to Settings > Windows Update > Check for updates. Download and install any available updates.,Software
+What is the difference between a .exe and a .msi installer?,".exe is an executable file that can install programs and run scripts, while .msi is specific to Windows Installer and is used for installation packages.",Software
+How do I uninstall an application on macOS?,"Drag the application to the Trash, then empty the Trash to remove it completely.",Software
+What does RAM do in a computer?,"RAM temporarily stores data that the CPU needs to access quickly, improving system performance for active tasks.",Hardware
+How can I tell if my CPU is overheating?,You can use tools like CoreTemp or HWMonitor to check the CPU temperature. Overheating often causes crashes or performance issues.,Hardware
+What is the difference between SSD and HDD?,"SSD is faster and more durable due to no moving parts, while HDD is cheaper and offers more storage for the price.",Hardware
+What is the difference between IaaS and PaaS?,"IaaS provides virtualized computing resources over the internet, while PaaS offers a platform for developers to build and deploy applications without managing underlying infrastructure.",Cloud Computing
+How do I create an AWS EC2 instance?,"Log in to AWS Management Console, go to EC2, select 'Launch Instance,' configure the instance, and click 'Launch' after reviewing the setup.",Cloud Computing
+What is serverless computing?,"Serverless computing allows you to run applications and services without managing the underlying infrastructure, billing only for the compute time used.",Cloud Computing
+What is software?,Software is an important aspect of the tech industry. Here's how it relates to your question...,Software
+How does software work?,Software is an important aspect of the tech industry. Here's how it relates to your question...,Software
+What are the benefits of software?,Software is an important aspect of the tech industry. Here's how it relates to your question...,Software
+How can I get started with software?,Software is an important aspect of the tech industry. Here's how it relates to your question...,Software
+What tools are available for software?,Software is an important aspect of the tech industry. Here's how it relates to your question...,Software
+What are the best practices for software?,Software is an important aspect of the tech industry. Here's how it relates to your question...,Software
+What is hardware?,Hardware is an important aspect of the tech industry. Here's how it relates to your question...,Hardware
+How does hardware work?,Hardware is an important aspect of the tech industry. Here's how it relates to your question...,Hardware
+What are the benefits of hardware?,Hardware is an important aspect of the tech industry. Here's how it relates to your question...,Hardware
+How can I get started with hardware?,Hardware is an important aspect of the tech industry. Here's how it relates to your question...,Hardware
+What tools are available for hardware?,Hardware is an important aspect of the tech industry. Here's how it relates to your question...,Hardware
+What are the best practices for hardware?,Hardware is an important aspect of the tech industry. Here's how it relates to your question...,Hardware
+What is cloud computing?,Cloud Computing is an important aspect of the tech industry. Here's how it relates to your question...,Cloud Computing
+How does cloud computing work?,Cloud Computing is an important aspect of the tech industry. Here's how it relates to your question...,Cloud Computing
+What are the benefits of cloud computing?,Cloud Computing is an important aspect of the tech industry. Here's how it relates to your question...,Cloud Computing
+How can I get started with cloud computing?,Cloud Computing is an important aspect of the tech industry. Here's how it relates to your question...,Cloud Computing
+What tools are available for cloud computing?,Cloud Computing is an important aspect of the tech industry. Here's how it relates to your question...,Cloud Computing
+What are the best practices for cloud computing?,Cloud Computing is an important aspect of the tech industry. Here's how it relates to your question...,Cloud Computing
+What is cybersecurity?,Cybersecurity is an important aspect of the tech industry. Here's how it relates to your question...,Cybersecurity
+How does cybersecurity work?,Cybersecurity is an important aspect of the tech industry. Here's how it relates to your question...,Cybersecurity
+What are the benefits of cybersecurity?,Cybersecurity is an important aspect of the tech industry. Here's how it relates to your question...,Cybersecurity
+How can I get started with cybersecurity?,Cybersecurity is an important aspect of the tech industry. Here's how it relates to your question...,Cybersecurity
+What tools are available for cybersecurity?,Cybersecurity is an important aspect of the tech industry. Here's how it relates to your question...,Cybersecurity
+What are the best practices for cybersecurity?,Cybersecurity is an important aspect of the tech industry. Here's how it relates to your question...,Cybersecurity
+What is programming?,Programming is an important aspect of the tech industry. Here's how it relates to your question...,Programming
+How does programming work?,Programming is an important aspect of the tech industry. Here's how it relates to your question...,Programming
+What are the benefits of programming?,Programming is an important aspect of the tech industry. Here's how it relates to your question...,Programming
+How can I get started with programming?,Programming is an important aspect of the tech industry. Here's how it relates to your question...,Programming
+What tools are available for programming?,Programming is an important aspect of the tech industry. Here's how it relates to your question...,Programming
+What are the best practices for programming?,Programming is an important aspect of the tech industry. Here's how it relates to your question...,Programming
+What is artificial intelligence?,Artificial Intelligence is an important aspect of the tech industry. Here's how it relates to your question...,Artificial Intelligence
+How does artificial intelligence work?,Artificial Intelligence is an important aspect of the tech industry. Here's how it relates to your question...,Artificial Intelligence
+What are the benefits of artificial intelligence?,Artificial Intelligence is an important aspect of the tech industry. Here's how it relates to your question...,Artificial Intelligence
+How can I get started with artificial intelligence?,Artificial Intelligence is an important aspect of the tech industry. Here's how it relates to your question...,Artificial Intelligence
+What tools are available for artificial intelligence?,Artificial Intelligence is an important aspect of the tech industry. Here's how it relates to your question...,Artificial Intelligence
+What are the best practices for artificial intelligence?,Artificial Intelligence is an important aspect of the tech industry. Here's how it relates to your question...,Artificial Intelligence
+What is it support?,IT Support is an important aspect of the tech industry. Here's how it relates to your question...,IT Support
+How does it support work?,IT Support is an important aspect of the tech industry. Here's how it relates to your question...,IT Support
+What are the benefits of it support?,IT Support is an important aspect of the tech industry. Here's how it relates to your question...,IT Support
+How can I get started with it support?,IT Support is an important aspect of the tech industry. Here's how it relates to your question...,IT Support
+What tools are available for it support?,IT Support is an important aspect of the tech industry. Here's how it relates to your question...,IT Support
+What are the best practices for it support?,IT Support is an important aspect of the tech industry. Here's how it relates to your question...,IT Support
+What is general tech?,General Tech is an important aspect of the tech industry. Here's how it relates to your question...,General Tech
+How does general tech work?,General Tech is an important aspect of the tech industry. Here's how it relates to your question...,General Tech
+What are the benefits of general tech?,General Tech is an important aspect of the tech industry. Here's how it relates to your question...,General Tech
+How can I get started with general tech?,General Tech is an important aspect of the tech industry. Here's how it relates to your question...,General Tech
+What tools are available for general tech?,General Tech is an important aspect of the tech industry. Here's how it relates to your question...,General Tech
+What are the best practices for general tech?,General Tech is an important aspect of the tech industry. Here's how it relates to your question...,General Tech
