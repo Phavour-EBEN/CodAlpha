@@ -9,12 +9,22 @@ from sklearn.metrics.pairwise import cosine_similarity
 import re
 
 # Download required NLTK data
-nltk.download('punkt')
-nltk.download('stopwords')
-nltk.download('wordnet')
+nltk.download('punkt_tab')
+
 
 class FAQChatbot:
     def __init__(self, csv_path):
+        
+        # Move NLTK downloads inside initialization
+        try:
+            nltk.data.find('tokenizers/punkt')
+            nltk.data.find('corpora/stopwords')
+            nltk.data.find('corpora/wordnet')
+        except LookupError:
+            nltk.download('punkt', quiet=True)
+            nltk.download('stopwords', quiet=True)
+            nltk.download('wordnet', quiet=True)
+            
         # Load the FAQ dataset
         self.data = pd.read_csv(csv_path)
         self.questions = self.data['Question'].tolist()
@@ -75,19 +85,19 @@ class FAQChatbot:
 # Example usage
 def main():
     # Initialize chatbot
-    chatbot = FAQChatbot('./product_faq_dataset.csv')
+    chatbot = FAQChatbot('product_faq_dataset.csv')
     
     # Interactive loop
-    while True:
-        user_input = input("Enter your question (or 'quit' to exit): ")
-        if user_input.lower() == 'quit':
-            break
+#     while True:
+#         user_input = input("Enter your question (or 'quit' to exit): ")
+#         if user_input.lower() == 'quit':
+#             break
             
-        response = chatbot.find_best_match(user_input)
-        print("\nMatched Question:", response['matched_question'])
-        print("Confidence Score:", response['confidence'])
-        print("Answer:", response['answer'])
-        print()
+#         response = chatbot.find_best_match(user_input)
+#         print("\nMatched Question:", response['matched_question'])
+#         print("Confidence Score:", response['confidence'])
+#         print("Answer:", response['answer'])
+#         print()
 
-if __name__ == "__main__":
-    main()
+# if __name__ == "__main__":
+#     main()
