@@ -1,4 +1,4 @@
-# CodAlpha AI Internship Projects
+# CodeAlpha AI Internship Projects
 
 This repository contains three projects completed during my internship at CodAlpha AI. Each project demonstrates different aspects of artificial intelligence and machine learning applications, showcasing the diversity of skills applied during the internship.
 
